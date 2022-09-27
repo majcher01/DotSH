@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# usage with parameters vhost.sh <filename> <domain> <port>
+
 if [ $# -eq 3 ]
 then
 	
