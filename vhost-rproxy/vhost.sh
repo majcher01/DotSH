@@ -1,4 +1,14 @@
 #!/bin/bash
+
+if [ $# -eq 3 ]
+then
+	
+	cp template.conf $1
+	sed -i "s/DOMENA/$2/" $1
+	sed -i "s/PORT/$3/" $1
+	exit 0
+fi
+
 read -p "podaj pelna nazwe pliku "
 nazwapliku=$REPLY
 cp template.conf $nazwapliku
