@@ -4,7 +4,7 @@ if [[ $# -eq 1 ]]
 then
 	domain=$1
 	webroot="/var/www/$1"
-	webmastermail="webmaster@webserver.local"
+	webmastermail="webmaster@example.com"
 	filename=$1.conf
 
 	mkdir $webroot
