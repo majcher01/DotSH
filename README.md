@@ -1,5 +1,6 @@
 # DotSH
 collection of bash scripts
+all scripts are tested on debian based distros
 
 ## vhost-rproxy
 automation of creating apache HTTP reverse proxies. <br>
@@ -20,3 +21,5 @@ usage with parameters:<br>
 ```
 You can specify only one parameter - domain, script will use ```/var/www/<domain>``` as webroot and default webmaster mail
 
+## EndSession
+script for ending user session, put on desktop and change icon
