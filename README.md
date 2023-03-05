@@ -23,3 +23,13 @@ You can specify only one parameter - domain, script will use ```/var/www/<domain
 
 ## EndSession
 script for ending user session, put on desktop and change icon
+
+## change-git-key
+script for changing github access key in multiple repos at once
+<br>
+available parameters:
+<br> username and key
+<br>example<br>
+```
+./changekey.sh majcher01 mynewaccesskey
+```
