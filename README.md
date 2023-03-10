@@ -1,6 +1,5 @@
 # DotSH
-collection of bash scripts
-all scripts are tested on debian based distros
+collection of bash scripts, all are tested on debian based distros
 
 ## vhost-rproxy
 automation of creating apache HTTP reverse proxies. <br>
